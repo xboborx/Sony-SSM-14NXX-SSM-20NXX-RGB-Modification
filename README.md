@@ -1,3 +1,7 @@
+Данный форк является вольным переводом оригинала статьи:
+https://github.com/phrederick/Sony-SSM-14NXX-SSM-20NXX-RGB-Modification
+Спасибо автору за труд!
+
 # SSM-14NXX / SSM-20NXX RGB Modification
 
 - [Overview](#overview)
