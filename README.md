@@ -2,16 +2,16 @@
 https://github.com/phrederick/Sony-SSM-14NXX-SSM-20NXX-RGB-Modification
 Спасибо автору за труд!
 
-# SSM-14NXX / SSM-20NXX RGB Modification
+# SSM-14NXX / SSM-20NXX RGB модификация
 
-- [Overview](#overview)
-- [Who this guide is for](#who-this-guide-is-for)
-    - [PVM models](#pvm-models)
-- [Tools List](#tools-list)
-    - [Required](#required)
-    - [Highly Recommended](#highly-recommended)
-- [Parts List](#parts-list)
-- [Step 1 - Dismantling the monitor](#step-1---dismantling-the-monitor)
+- [Введение](#введение)
+- [Для кого это руководство](#для-кого-это-руководство)
+    - [Модели PVM](#pvm-models)
+- [Список инструментов](#tools-list)
+    - [Необходимые](#required)
+    - [Рекомендуемые](#highly-recommended)
+- [Список деталей](#parts-list)
+- [Шаг 1 - Dismantling the monitor](#step-1---dismantling-the-monitor)
     - [Step 1.1 - Removing the case](#step-11---removing-the-case)
     - [Step 1.2 - Detaching the Q board and releasing the Q board from the connector mounting plate](#step-12---detaching-the-q-board-and-releasing-the-q-board-from-the-connector-mounting-plate)
     - [Step 1.3 - Removing the A board](#step-13---removing-the-a-board)
@@ -25,10 +25,10 @@ https://github.com/phrederick/Sony-SSM-14NXX-SSM-20NXX-RGB-Modification
     - [Reproduction faceplate decals](#reproduction-faceplate-decals)
 - [References and acknowledgements](#references-and-acknowledgements)
 
-## Overview
-The purpose of this document is to explain how to modify a Sony SSM monitor to be able to support RGB. As a disclaimer, I am not an electronics engineer by any means, and all of the information contained within is collated from various sources online. This documentation is mostly for my own reference, but I do hope others find it useful too. While I have done this modification myself, I was standing on the shoulders of others the whole way.
+## Введение
+Цель этого документа - показать, как можно расширить функционал монитора Sony SSM, чтобы он мог поддерживать RGB-вход. В качестве оговорки хочу отметить, что я никоим образом не являюсь инженером-электронщиком, и вся информация, содержащаяся здесь, собрана из различных онлайн-источников. Эта документация в основном предназначена для моего собственного ознакомления, но я надеюсь, что другие тоже найдут ее полезной. Хотя я и производил эти модификации собственноручнчо, я все время опираюсь на плечи других.
 
-Please note that there are actually multiple ways to achieve this mod, and that the more correct way is almost definitely to populate *all* missing components, but this documentation serves to outline the specific route that I took to achieve it.
+Пожалуйста, обратите внимание, что на самом деле существует несколько способов создания этого мода, и что более правильным способом почти наверняка будет заполнить все недостающие компоненты, но эта документация служит для того, чтобы поведать конкретный маршрут, который я выбрал для его достижения.
 
 ## Who this guide is for
 This guide is specifically for you if you own any of the following monitors, and wish to modify them to accept RGB:
