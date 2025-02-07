@@ -30,28 +30,30 @@ https://github.com/phrederick/Sony-SSM-14NXX-SSM-20NXX-RGB-Modification
 
 Пожалуйста, обратите внимание, что на самом деле существует несколько способов создания этого мода, и что более правильным способом почти наверняка будет заполнить все недостающие компоненты, но эта документация служит для того, чтобы поведать конкретный маршрут, который я выбрал для его достижения.
 
-## Who this guide is for
-This guide is specifically for you if you own any of the following monitors, and wish to modify them to accept RGB:
-|14" Models|20" Models|
+## Для кого это руководство
+Это руководство предназначено специально для вас, если вы собираетесь модифицировать какой-либо из следующих мониторов для поддержки RGB:
+|14" модели|20" модели|
 |----------|----------|
 |SSM-14N5A|SSM-20N5A|
 |SSM-14N5E|SSM-20N5E|
 |SSM-14N5U|SSM-20N5U|
 
-### PVM models
+### Модели PVM
 This guide may also be useful to you if you own any of the monitors from the table below, as they are also based on the same chassis as the aforementioned 'SSM-XXXXX' monitors.
+Это руководство также может оказаться полезным, если вы являетесь владельцем одного из мониторов из таблицы, приведенной ниже, поскольку они основаны на том же шасси, что и вышеупомянутые мониторы «SSM-XXXXX».
 
-|14" Models|20" Models|Notes|
+|14" модель|20" модель|Комментарии|
 |----------|----------|-----|
-|PVM-14N5A|PVM-20N5A|Moddable - see notes below
-|PVM-14N5E|PVM-20N5E|Moddable - see notes below
-|PVM-14N5MDE|--|Moddable - see notes below
-|PVM-14N5U|PVM-20N5U|Moddable - see notes below
-|PVM-14N6A|PVM-20N6A|This monitor already has RGB
-|PVM-14N6E|PVM-20N6E|This monitor already has RGB
-|PVM-14N6U|PVM-20N6U|This monitor already has RGB
+|PVM-14N5A|PVM-20N5A|Возможно модифицировать — см. примечания ниже.
+|PVM-14N5E|PVM-20N5E|Возможно модифицировать — см. примечания ниже.
+|PVM-14N5MDE|--|Возможно модифицировать — см. примечания ниже.
+|PVM-14N5U|PVM-20N5U|Возможно модифицировать — см. примечания ниже.
+|PVM-14N6A|PVM-20N6A|В этом мониторе уже имеется RGB
+|PVM-14N6E|PVM-20N6E|В этом мониторе уже имеется RGB
+|PVM-14N6U|PVM-20N6U|В этом мониторе уже имеется RGB
 
 Modifying the PVM models is slightly different, and perhaps even easier depending on your perspective. The mod differences specific to PVM models that I am aware of are:
+Модификация моделей PVM немного отличается и, возможно, даже проще в зависимости от вашей точки зрения. Различия в модификациях, характерные для моделей PVM, о которых я знаю, следующие:
 
 1. **Important** - Your PVM may or may not have a connector and wiring harness pre-installed at connector CN403 on the A board. If your monitor does not have this connector + harness, then you will need to route your own wires between the A and Q boards, but **be aware** that Sony made a mistake with the PCB labelling for this connector and it is reversed. On the PCB, the red pin is labelled as being closest to the front of the monitor, but the red pin is actually the one closest to the corner of the PCB; all other inputs are respectively reversed too. Therefore, from the corner of the PCB to the front, the pinouts are: R, GND, G, GND, B, GND, and Audio. See the images section below for a picture with the corrected pinout.
 
