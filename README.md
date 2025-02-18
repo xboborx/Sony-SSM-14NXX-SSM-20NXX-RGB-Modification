@@ -39,7 +39,6 @@ https://github.com/phrederick/Sony-SSM-14NXX-SSM-20NXX-RGB-Modification
 |SSM-14N5U|SSM-20N5U|
 
 ### Модели PVM
-This guide may also be useful to you if you own any of the monitors from the table below, as they are also based on the same chassis as the aforementioned 'SSM-XXXXX' monitors.
 Это руководство также может оказаться полезным, если вы являетесь владельцем одного из мониторов из таблицы, приведенной ниже, поскольку они основаны на том же шасси, что и вышеупомянутые мониторы «SSM-XXXXX».
 
 |14" модель|20" модель|Комментарии|
@@ -52,38 +51,42 @@ This guide may also be useful to you if you own any of the monitors from the tab
 |PVM-14N6E|PVM-20N6E|В этом мониторе уже имеется RGB
 |PVM-14N6U|PVM-20N6U|В этом мониторе уже имеется RGB
 
-Modifying the PVM models is slightly different, and perhaps even easier depending on your perspective. The mod differences specific to PVM models that I am aware of are:
-Модификация моделей PVM немного отличается и, возможно, даже проще в зависимости от вашей точки зрения. Различия в модификациях, характерные для моделей PVM, о которых я знаю, следующие:
+Модификация моделей PVM немного отличается и, может быть проще в зависимости от вашей цели. Различия в модификациях, характерные для моделей PVM, которые известны:
 
 1. **Important** - Your PVM may or may not have a connector and wiring harness pre-installed at connector CN403 on the A board. If your monitor does not have this connector + harness, then you will need to route your own wires between the A and Q boards, but **be aware** that Sony made a mistake with the PCB labelling for this connector and it is reversed. On the PCB, the red pin is labelled as being closest to the front of the monitor, but the red pin is actually the one closest to the corner of the PCB; all other inputs are respectively reversed too. Therefore, from the corner of the PCB to the front, the pinouts are: R, GND, G, GND, B, GND, and Audio. See the images section below for a picture with the corrected pinout.
+1. **Важно** - Ваш PVM может иметь или не иметь разъем и жгут проводов, предварительно установленные на разъеме CN403 на плате A. Если ваш монитор не имеет этого разъема + жгута, то вам нужно будет проложить собственные провода между платами A и Q, но **имейте в виду**, что Sony допустила ошибку с маркировкой печатной платы для этого разъема, и он перевернут. На печатной плате красный контакт обозначен как ближайший к передней части монитора, но на самом деле красный контакт является ближайшим к углу печатной платы; все остальные входы соответственно также перевернуты. Таким образом, от угла печатной платы к передней части, расположение выводов следующее: R, GND, G, GND, B, GND и Audio. Смотрите раздел изображений ниже для изображения с исправленным расположением выводов.
 
 2. You may not need to make the same jumper cuts on the A board as noted in the instructions below, as they may already be absent.
+2. Возможно, вам не придется делать те же самые разрезы перемычек на плате А, как указано в инструкциях ниже, поскольку они могут отсутствовать.
 
 3. The BA7604N and MC14052BCP ICs may already be present on your model, which means you will not need to add them.
+3. Микросхемы BA7604N и MC14052BCP могут уже присутствовать в вашей модели, поэтому вам не потребуется их добавлять.   
 
 4. If your monitor already has a connector and wiring harness between CN402 on the A board and CN1302 on the Q board (which it likely will if your monitor has Line B), then you can route your RGB sync pin to the emitter pin at Q1312 which is equivalent to jumping a wire to ESYNC at CN1302. See the images section below for a picture showing where to make the connection.
+4. Если у вашего монитора уже есть разъем и жгут проводов между CN402 на плате A и CN1302 на плате Q (что, скорее всего, так и будет, если у вашего монитора есть линия B), то вы можете направить свой контакт синхронизации RGB на контакт эмиттера на Q1312, что эквивалентно перемычке провода к ESYNC на CN1302. Смотрите раздел изображений ниже, где показано, где сделать подключение.
 
 5. In the case of the PVM-14N5MDE, you may not need to add the 10 ohm resistor at R032, as it may already be present.
+5. В случае PVM-14N5MDE вам, возможно, не придется добавлять резистор сопротивлением 10 Ом в R032, так как он уже может присутствовать.
 
 |Image|Notes|
 |-----|-----|
 |<img src="https://i.imgur.com/FmWPSVE.jpg" width="300">| As per point 1 above, this image illustrates the corrected pinout for CN403. If you are wiring CN403 yourself because your PVM does not have a connector and wiring harness, keep this in mind. If you want to install your own pin header (as opposed to just soldering wires directly into the PCB holes), the type of header you need is one with a 2.54mm pitch.
 |<img src="https://i.imgur.com/OgMdGZ5.jpg" width="300">|As per point 4 above, if your PVM already has a connector between CN402 on the A board and CN1302 on the Q board, you can put a jumper wire between these two points instead of running a wire between A board and Q board which is necessary for models without aforementioned wiring harness between CN402 & CN1302.
 
-## Tools List
-### Required
-* Screwdriver
-* Soldering iron (I used a TS100)
-* Desoldering braid / Desoldering tool
-* Solder (I used 0.7mm)
-* Insulated wire
+## Список инструментов
+### Обязательные
+* Отвёртка
+* Паяльник
+* Инструмент для демонтажа компонентов и медная оплетка
+* Оловянный припой (толщина 0.7мм)
+* Изолированный кабель
 
-### Highly Recommended
-* Multimeter
-* Flux
-* Side cutters
+### Рекомендуется
+* Мультиметр
+* Паяльный флюс
+* Бокорезы
 
-## Parts List
+## Список деталей
 |Component|Description|Qty|Links|
 |---------|-----------|---|-----|
 |Ceramic capacitor|Surface mount, non-polarised - 0.1µF|3|[Digi-Key - 445-1418-1-ND](https://www.digikey.com.au/product-detail/en/tdk-corporation/C2012X7R2A104K125AA/445-1418-1-ND/569084)|
