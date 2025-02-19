@@ -70,8 +70,8 @@ https://github.com/phrederick/Sony-SSM-14NXX-SSM-20NXX-RGB-Modification
 
 |Изображение|Описание|
 |-----|-----|
-|<img src="https://i.imgur.com/FmWPSVE.jpg" width="300">| As per point 1 above, this image illustrates the corrected pinout for CN403. If you are wiring CN403 yourself because your PVM does not have a connector and wiring harness, keep this in mind. If you want to install your own pin header (as opposed to just soldering wires directly into the PCB holes), the type of header you need is one with a 2.54mm pitch.
-|<img src="https://i.imgur.com/OgMdGZ5.jpg" width="300">|As per point 4 above, if your PVM already has a connector between CN402 on the A board and CN1302 on the Q board, you can put a jumper wire between these two points instead of running a wire between A board and Q board which is necessary for models without aforementioned wiring harness between CN402 & CN1302.
+|<img src="https://i.imgur.com/FmWPSVE.jpg" width="300"> [Изображение](https://i.imgur.com/FmWPSVE.jpg)| As per point 1 above, this image illustrates the corrected pinout for CN403. If you are wiring CN403 yourself because your PVM does not have a connector and wiring harness, keep this in mind. If you want to install your own pin header (as opposed to just soldering wires directly into the PCB holes), the type of header you need is one with a 2.54mm pitch. Согласно пункту 1 выше, это изображение иллюстрирует исправленную распиновку для CN403. Если вы подключаете CN403 самостоятельно, поскольку ваш PVM не имеет разъема и жгута проводов, имейте это в виду. Если вы хотите установить собственный разъем для штырьков (в отличие от простой пайки проводов непосредственно в отверстия печатной платы), вам нужен разъем с шагом 2,54 мм.
+|<img src="https://i.imgur.com/OgMdGZ5.jpg" width="300">  [Изображение](https://i.imgur.com/OgMdGZ5.jpg)|As per point 4 above, if your PVM already has a connector between CN402 on the A board and CN1302 on the Q board, you can put a jumper wire between these two points instead of running a wire between A board and Q board which is necessary for models without aforementioned wiring harness between CN402 & CN1302. Согласно пункту 4 выше, если ваш PVM уже имеет разъем между CN402 на плате A и CN1302 на плате Q, вы можете установить перемычку между этими двумя точками вместо того, чтобы прокладывать провод между платой A и платой Q, что необходимо для моделей без вышеупомянутого жгута проводов между CN402 и CN1302.
 
 ## Список инструментов
 ### Обязательные
@@ -173,9 +173,9 @@ The optional jumper wire for the Audio means that the RGB and Line A will share 
 ### Изображения модификации платы Q и монтажной панели
 Image|Notes|
 -----|-----|
-|<img src="https://i.imgur.com/7zH86tG.jpg" width="300">|Q board, showing all component modification locations.|
-|<img src="https://i.imgur.com/0IfgGnd.jpg" width="300">|Q board, showing an example of how to attach the BNC connectors.|
-|<img src="https://i.imgur.com/40ZhIf3.jpg" width="300">|Q board and A board, showing an example of how to connect the sync wire.|
+|<img src="https://i.imgur.com/7zH86tG.jpg" width="300"> [Изображение](https://i.imgur.com/7zH86tG.jpg)|Q board, showing all component modification locations.|
+|<img src="https://i.imgur.com/0IfgGnd.jpg" width="300"> [Изображение](https://i.imgur.com/0IfgGnd.jpg)|Q board, showing an example of how to attach the BNC connectors.|
+|<img src="https://i.imgur.com/40ZhIf3.jpg" width="300"> [Изображение](https://i.imgur.com/40ZhIf3.jpg)|Q board and A board, showing an example of how to connect the sync wire.|
 
 ## Step 3 - A board modifications
 Modifying the A board is pretty straight-forward. It's just a matter of removing and adding a few components. As noted earlier, some of these changes are not necessary if you are modifying the **non-SSM** variants based on the same chassis.
@@ -202,11 +202,11 @@ Add component|Tactile switch|S008|
 ### Изображения модификации платы A
 Image|Notes|
 -----|-----|
-|<img src="https://i.imgur.com/1zPY3th.jpg" width="300">|A board, showing all component modification locations.|
-|<img src="https://i.imgur.com/retnfXi.jpg" width="300">|A board, detailed image showing where the ICs and jumper wire cuts / removals are to be made.|
-|<img src="https://i.imgur.com/zdiLlXD.jpg" width="300">|A board, detailed image showing where to attach the SMD capacitors.|
-|<img src="https://i.imgur.com/5jClN18.jpg" width="300">|A board, detailed image showing where to attach the 10 ohm resistors.|
-|<img src="https://i.imgur.com/mKp8iDQ.jpg" width="300">|A board, detailed image showing where to attach the tactile switches.|
+|<img src="https://i.imgur.com/1zPY3th.jpg" width="300"> [Изображение](https://i.imgur.com/1zPY3th.jpg)|A board, showing all component modification locations.|
+|<img src="https://i.imgur.com/retnfXi.jpg" width="300"> [Изображение](https://i.imgur.com/retnfXi.jpg)|A board, detailed image showing where the ICs and jumper wire cuts / removals are to be made.|
+|<img src="https://i.imgur.com/zdiLlXD.jpg" width="300"> [Изображение](https://i.imgur.com/zdiLlXD.jpg)|A board, detailed image showing where to attach the SMD capacitors.|
+|<img src="https://i.imgur.com/5jClN18.jpg" width="300"> [Изображение](https://i.imgur.com/5jClN18.jpg)|A board, detailed image showing where to attach the 10 ohm resistors.|
+|<img src="https://i.imgur.com/mKp8iDQ.jpg" width="300"> [Изображение](https://i.imgur.com/mKp8iDQ.jpg)|A board, detailed image showing where to attach the tactile switches.|
 
 ## Step 4 - Case / enclosure modifications
 You will need to make some minor finishing touches to the case. Specifically:
@@ -223,7 +223,7 @@ You will need to make some minor finishing touches to the case. Specifically:
 ### Case / enclosure modification images
 Image|Notes|
 -----|-----|
-|<img src="https://i.imgur.com/GO5K9MK.jpg" width="300">|Rear panel, showing an example of how to modify the rear panel.|
+|<img src="https://i.imgur.com/GO5K9MK.jpg" width="300"> [Изображение](https://i.imgur.com/GO5K9MK.jpg)|Rear panel, showing an example of how to modify the rear panel.|
 
 ### 3D-printed front panel buttons
 If you have access to a 3D printer, then you can print yourself some face buttons using the STL file here: https://www.thingiverse.com/thing:5029004. The STL file is also available on this GitHub page in the '..\Faceplate Button' directory. Kudos to 'galaxius' for kindly designing and printing the buttons for my own modified monitors.
@@ -241,11 +241,11 @@ If you are using the suggested switches (or ones with very similar dimensions), 
 
 Image|Notes|
 -----|-----|
-|<img src="https://i.imgur.com/hqXKFIL.png" width="300">|An example of how these buttons can look once they are installed after the necessary modifications are done to the vinyl sticker.|
-|<img src="https://i.imgur.com/lDalRr7.jpg" width="300">|Buttons unpainted / unsanded.|
-|<img src="https://i.imgur.com/ctR6LBL.jpg" width="300">|Buttons painted / face sanded.|
-|<img src="https://i.imgur.com/xH0grE9.gif" width="300">|Button video - view from inside case.|
-|<img src="https://i.imgur.com/JDGMtNc.gif" width="300">|Button video - view from front (unsanded + painted prototype button)|
+|<img src="https://i.imgur.com/hqXKFIL.png" width="300"> [Изображение](https://i.imgur.com/hqXKFIL.png)|An example of how these buttons can look once they are installed after the necessary modifications are done to the vinyl sticker.|
+|<img src="https://i.imgur.com/lDalRr7.jpg" width="300"> [Изображение](https://i.imgur.com/lDalRr7.jpg)|Buttons unpainted / unsanded.|
+|<img src="https://i.imgur.com/ctR6LBL.jpg" width="300"> [Изображение](https://i.imgur.com/ctR6LBL.jpg)|Buttons painted / face sanded.|
+|<img src="https://i.imgur.com/xH0grE9.gif" width="300"> [Изображение](https://i.imgur.com/xH0grE9.gif)|Button video - view from inside case.|
+|<img src="https://i.imgur.com/JDGMtNc.gif" width="300"> [Изображение](https://i.imgur.com/JDGMtNc.gif)|Button video - view from front (unsanded + painted prototype button)|
 
 ### Reproduction faceplate decals
 With gracious thanks to Industrial Designer, Evan Twyford, we now have templates for creating reproduction faceplate decals to suit monitors with the following configurations:
